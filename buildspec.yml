@@ -1,5 +1,4 @@
 version: 0.2
-
 phases:
   build:
     commands:
@@ -10,5 +9,5 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/customer-service.jar
+    - target/employee-service.jar
   discard-paths: yes
